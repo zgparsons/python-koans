@@ -18,6 +18,10 @@
 #
 def triangle(a, b, c):
     # Analyse triangle
+    if a <= 0 or b <= 0 or c <= 0:
+        raise TriangleError(AttributeError('All sides should be > 0'))
+    if a+b <= c or a+c <= b or b+c <= a:
+        raise TriangleError(AttributeError('The sum of any two sides should greater than the remaining side'))
     if a == b == c:
         return 'equilateral'
     elif a == b or a == c or b == c:
@@ -28,3 +32,4 @@ def triangle(a, b, c):
 # Error class used in part 2.  No need to change this code.
 class TriangleError(Exception):
     pass
+
