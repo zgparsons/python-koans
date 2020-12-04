@@ -2,13 +2,7 @@
 Python Koans
 ============
 
-.. image:: https://travis-ci.org/gregmalcolm/python_koans.png?branch=master
-   :target: http://travis-ci.org/gregmalcolm/python_koans
-
-Python Koans is a port of Edgecase's "Ruby Koans" which can be found
-at http://rubykoans.com/.
-
-.. image:: https://user-images.githubusercontent.com/2614930/28401740-ec6214b2-6cd0-11e7-8afd-30ed3102bfd6.png
+Completed by Zachary - December 2020
 
 Python Koans is an interactive tutorial for learning the Python programming
 language by making tests pass.
@@ -20,14 +14,6 @@ Most tests are *fixed* by filling the missing parts of assert functions. Eg:
 which can be fixed by replacing the __ part with the appropriate code:
 
     self.assertEqual(3, 1+2)
-
-Occasionally you will encounter some failing tests that are already filled out.
-In these cases you will need to finish implementing some code to progress. For
-example, there is an exercise for writing some code that will tell you if a
-triangle is equilateral, isosceles or scalene.
-
-As well as being a great way to learn some Python, it is also a good way to get
-a taste of Test Driven Development (TDD).
 
 
 Downloading Python Koans
